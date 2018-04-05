@@ -1,18 +1,33 @@
-# Data Visualization 
+# Bikes Stolen in UCSB (Campus)
 
-### Contributors
-+ Matthew Peterschmidt 
+## Abstract
+This project is a exploratory analysis of bikes stolen on the UCSB campus. We use visualizations to get an idea of geographically, which bike locations on campus are the most vulnerable for bicycles. We used R and R Studio to create this project. 
+
+## Contributors
++ Eri Kawakami
 + Jun Ki Kwon (Jun)
 + Daniel Zeng
-+ Eri Kawakami
++ Mathew Peterschmidt
 
-## What is Data Visualization?
-Data Visualization is any effort to help people understand the significance of data by placing it in a visual context. We use specific software to look for patterns, trends, and correlations that may go unrecognized otherwise. 
+## Packages Required 
+The required packages used in this project are: 
+```
+data.table
+base
+ggplot2
+ggmap
+plotly
+plyr
+```
 
-## Collecting Data
-We will go to the UCPD's office. Contact them prior to going to their office. 
+## Methodology
+In order to proceed with this project, we received our data from the UCSB Police Department. Most of our work went into cleaning and standardizing the data, as well as figuring out what bike parking spots on campus. 
+We did not see the noticeable differences in the influence of each parking location until we saw it visualized on a map. 
 
-## Code
-Our main language we will use is R and maybe Python at the end of it if we have time. We will be using Jupyter notebooks, gmaps and plotly. 
+![](stolen_map.jpeg)
 
-## Analysis
+## Conclusion
+From the visualizations and interactive bar graphs, we conlcuded that the bike racks that were the most effected were the major ones on campus such as the UCSB Library and the SRB. 
+
+## Sources Cited
+A lot of this project was influenced from a prior project called: [Bikes Stolen in Isla Vista (2010 - 2016)](https://www.inertia7.com/projects/?q=isla+vista)
